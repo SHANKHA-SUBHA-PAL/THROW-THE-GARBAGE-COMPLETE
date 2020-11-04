@@ -23,7 +23,7 @@ class Dside{
     translate(pos.x,pos.y);
     rectMode(CENTER);
     fill("red"); 
-    rect(0,0,this.width,this.height); 
+   // rect(0,0,this.width,this.height); 
     pop()
 
     
@@ -37,7 +37,7 @@ display2(){
     translate(pos.x,pos.y);
     rectMode(CENTER);
     fill("red"); 
-    rect(0,0,this.width,this.height); 
+   // rect(0,0,this.width,this.height); 
     imageMode(CENTER);
     image(this.image,0,0,180,200)
     pop()
